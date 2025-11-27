@@ -1,45 +1,61 @@
 # Johan Vaz
 
-Building AI agents for markets, product loops, and useful little wedges. Singapore -> SF.
+NUS Computer Science + Quantitative Finance. I build AI agents, finance research tools, and product demos that make messy workflows legible.
 
-I like products that make complicated systems feel legible: markets, language learning, user behavior, and the tiny workflows people repeat every day.
+Currently looking for internships or junior roles around AI agents, LLM evaluation, fintech, quant research tooling, product operations, and workflow automation. Singapore-based, remote/SF-curious.
 
-## Featured Builds
+## Best Proof
 
-### iGhost
+### [AI Equity Research Copilot](https://github.com/Jo2234/ai-equity-research-copilot)
 
-AI usability lab that turns website tasks into narrated synthetic-user walkthroughs.
+Document-grounded research assistant for public companies.
 
+- SEC filing ingestion, cited retrieval, company comparisons, and structured memos
+- Finance QA evals with citation rules, refusal behavior, and hallucination checks
+- Built for source-backed research, not generic chatbot answers
+
+### [FluentAI](https://github.com/Jo2234/FluentAI)
+
+Impact Prize-winning agentic language tutor from Ralphthon @SG.
+
+- Curriculum-planning, evaluator, and learner-memory agents
+- Adaptive lessons, quizzes, conversation mode, and desktop/web demos
+- Deterministic fallbacks and visible agent decision logs
+
+### [iGhost](https://github.com/Jo2234/iGhost)
+
+AI usability lab for product feedback.
+
+- Turns website tasks into narrated synthetic-user walkthroughs
 - Browser automation, product critique, voiceover, and Codex-ready fix prompts
-- Built for fast product feedback before real users hit the rough edges
+- Useful for testing product flows before real users hit rough edges
 
-### FluentAI
+### [S&P 500 Momentum Screener](https://github.com/Jo2234/sp500-momentum-screener)
 
-Agentic language tutor with adaptive lessons, quizzes, and desktop/web demos.
-
-- Multi-agent learning loop with persistent progress
-- Lessons, quizzes, evaluation, and feedback adapt to the learner
-
-### S&P 500 Momentum Screener
-
-Finance research tool for testing momentum portfolios against historical market data.
+Finance research tool for testing momentum strategies against historical market data.
 
 - Backtesting, factor analysis, drawdown tracking, and validation workflows
-- Built as research software, not financial advice
+- Framed as research software, not trading advice
 
-## Current Focus
+## What I Like Building
 
-- AI agents for product and finance workflows
-- Options education and market research tools
-- Building in public through demos, notes, and X threads
+- AI agents for real workflows, not just demos
+- LLM evals, retrieval, citations, and failure analysis
+- Market dashboards, portfolio/risk tooling, and finance research systems
+- Product loops where messy user behavior becomes clear next actions
 
-## Next Up
+## Current Direction
 
-- Options Lab: payoff diagrams, Greeks, IV scenarios, and plain-English explanations
-- Market Memo Agent: sourced company research from filings, news, prices, and catalysts
+I am especially interested in roles where I can combine:
+
+- Python/data work
+- AI-assisted research and automation
+- finance, markets, or fintech context
+- clear writing and product taste
+
+I would still build this stuff if no one was watching: AI tools, markets, options, and product loops.
 
 ## Links
 
 - GitHub: https://github.com/Jo2234
-- X: add link
-- LinkedIn: add link
+- LinkedIn: https://sg.linkedin.com/in/johan-vaz
