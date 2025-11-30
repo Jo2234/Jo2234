@@ -14,6 +14,30 @@ Document-grounded research assistant for public companies.
 - Finance QA evals with citation rules, refusal behavior, and hallucination checks
 - Built for source-backed research, not generic chatbot answers
 
+### [Financial LLM Evaluation Harness](https://github.com/Jo2234/financial-llm-eval-harness)
+
+Evaluation harness for financial QA systems.
+
+- 50-case suite across factual extraction, cited summaries, multi-document synthesis, company comparison, refusal, and adversarial cases
+- Scoring, citation precision/recall, refusal accuracy, reports, and regression comparison
+- Useful for AI observability, evals, and reliable finance-agent workflows
+
+### [Portfolio Risk Engine](https://github.com/Jo2234/portfolio-risk-engine)
+
+Portfolio analytics and stress-testing demo.
+
+- Returns, volatility, drawdowns, VaR, expected shortfall, beta, correlations, exposure, and concentration
+- Historical and hypothetical stress tests with plain-English risk commentary
+- Built to make portfolio risk methodology inspectable
+
+### [US Market Regime Dashboard](https://github.com/Jo2234/us-market-regime-dashboard)
+
+Market environment dashboard for indices, sectors, rates, volatility, commodities, and regime classification.
+
+- FastAPI backend, React frontend, data freshness checks, and CSV exports
+- Transparent regime rules rather than opaque market predictions
+- Useful for macro/risk context in research workflows
+
 ### [FluentAI](https://github.com/Jo2234/FluentAI)
 
 Impact Prize-winning agentic language tutor from Ralphthon @SG.
