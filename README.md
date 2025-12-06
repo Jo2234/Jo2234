@@ -2,7 +2,9 @@
 
 NUS Computer Science + Quantitative Finance. I build AI agents, finance research tools, and product demos that make messy workflows legible.
 
-Currently looking for internships or junior roles around AI agents, LLM evaluation, fintech, quant research tooling, product operations, and workflow automation. Singapore-based, remote/SF-curious.
+Currently looking for internships or junior roles around AI agents, LLM evaluation, fintech, quant research tooling, product operations, and workflow automation. Singapore-based, remote-first/SF-curious.
+
+Best fit: small teams where useful work means turning messy workflows into clean data, evals, docs, dashboards, and lightweight automation.
 
 ## Best Proof
 
@@ -78,6 +80,12 @@ I am especially interested in roles where I can combine:
 - clear writing and product taste
 
 I would still build this stuff if no one was watching: AI tools, markets, options, and product loops.
+
+## Where I Can Help
+
+- LLM evals, agent QA, annotation guidelines, failure reports, and rubric design
+- Finance/data ops, product support, research automation, and internal reporting
+- Startup/founder ops: turning loose asks into tracked workflows and useful artifacts
 
 ## Links
 
