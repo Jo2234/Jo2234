@@ -1,6 +1,6 @@
 # Johan Vaz
 
-I build AI systems for financial research and risk — the unglamorous machinery that decides whether an AI tool is trustworthy or just fluent: eval harnesses, cited retrieval over SEC filings, and risk analytics that explain themselves.
+I build evaluated AI systems and financial research tools: cited retrieval over SEC filings, financial QA evaluation, and risk analytics with inspectable inputs and calculations.
 
 Computer Science + Quantitative Finance at NUS. Based in Singapore.
 
@@ -8,7 +8,15 @@ Computer Science + Quantitative Finance at NUS. Based in Singapore.
 
 **Currently:** looking for internships or junior roles in AI agents, LLM evaluation, fintech, or quant research tooling — ideally on a small team that ships.
 
-## Selected work
+## Merged open-source contributions
+
+- **[Apache Arrow — faster selection for fragmented masks](https://github.com/apache/arrow-rs/pull/10368).** Added adaptive dispatch to the existing interleave kernels while preserving null handling and the contiguous-mask path. The PR's 8,192-row i32 benchmark recorded 76.889 µs → 33.676 µs, a 56.2% reduction in execution time for that workload.
+- **[bt — integer allocation with nonlinear commissions](https://github.com/pmorissette/bt/pull/530).** Fixed a search that skipped an affordable share quantity and raised an error; added a regression for minimum, per-share, and capped commissions.
+- **[ffn — multi-period annualization](https://github.com/pmorissette/ffn/pull/304).** Corrected frequency inference that inflated annualized ratios for 30-minute data, with coverage of the resulting Sharpe calculation.
+
+The linked PRs contain the implementation, review discussion, validation, and any AI-assistance disclosures. Benchmark results apply to the recorded workloads and environment.
+
+## Selected projects
 
 | Project | What it is |
 | --- | --- |
@@ -19,12 +27,6 @@ Computer Science + Quantitative Finance at NUS. Based in Singapore.
 | [finance-labs](https://github.com/Jo2234/finance-labs) | A toolkit of small, offline, test-covered risk and market-structure diagnostics: margin cascades, ETF liquidity stress, option skew, factor crowding, covenant headroom, and more. **[Live results gallery →](https://finance-labs-showcase.vercel.app)** |
 | [US Market Regime Dashboard](https://github.com/Jo2234/us-market-regime-dashboard) | Macro/risk context dashboard with transparent regime rules, data-freshness checks, and exports. FastAPI + React. **[Live →](https://market-regime-dashboard-mu.vercel.app)** |
 | [Portfolio Risk Copilot](https://github.com/Jo2234/portfolio-risk-copilot) | API-first portfolio risk: VaR, expected shortfall, correlations, concentration flags, stress tests, plain-English commentary. **[Live →](https://portfolio-risk-copilot-pi.vercel.app)** |
-
-## How I work
-
-- **Grounded, or it doesn't ship.** Generated claims trace to source chunks; when evidence is weak, the system refuses — and that behavior is tested like a feature.
-- **Evaluated, not vibe-checked.** I build the eval harness before trusting the output: golden sets, regression scoring, adversarial cases.
-- **Honest about failure modes.** Finance punishes overconfidence, so I document where tools break and what they must not do.
 
 ## Contact
 
