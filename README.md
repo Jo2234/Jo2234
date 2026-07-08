@@ -4,6 +4,8 @@ I build AI systems for financial research and risk — the unglamorous machinery
 
 Computer Science + Quantitative Finance at NUS. Based in Singapore.
 
+**Site:** [johan-vaz-site.vercel.app](https://johan-vaz-site.vercel.app) — several projects below are deployed and clickable, not just readable.
+
 **Currently:** looking for internships or junior roles in AI agents, LLM evaluation, fintech, or quant research tooling — ideally on a small team that ships.
 
 ## Selected work
@@ -14,8 +16,9 @@ Computer Science + Quantitative Finance at NUS. Based in Singapore.
 | [Financial LLM Eval Harness](https://github.com/Jo2234/financial-llm-eval-harness) | 50-case evaluation suite for financial QA systems: factual extraction, multi-document synthesis, refusal behavior, adversarial prompts, scoring, and regression reports. |
 | [Curio](https://github.com/Jo2234/curio) | Learning-by-teaching, instrumented: teach an AI novice by voice, reasoning agents map your claims against a curriculum, then the novice teaches it back using only what it learned from you. |
 | [FluentAI](https://github.com/Jo2234/FluentAI) | Agentic language tutor with adaptive lessons, evaluator/memory agents, real-time speech, and spaced repetition driven by actual conversation mistakes. |
-| [finance-labs](https://github.com/Jo2234/finance-labs) | A toolkit of small, offline, test-covered risk and market-structure diagnostics: margin cascades, ETF liquidity stress, option skew, factor crowding, covenant headroom, and more. |
-| [US Market Regime Dashboard](https://github.com/Jo2234/us-market-regime-dashboard) | Macro/risk context dashboard with transparent regime rules, data-freshness checks, and exports. FastAPI + React. |
+| [finance-labs](https://github.com/Jo2234/finance-labs) | A toolkit of small, offline, test-covered risk and market-structure diagnostics: margin cascades, ETF liquidity stress, option skew, factor crowding, covenant headroom, and more. **[Live results gallery →](https://finance-labs-showcase.vercel.app)** |
+| [US Market Regime Dashboard](https://github.com/Jo2234/us-market-regime-dashboard) | Macro/risk context dashboard with transparent regime rules, data-freshness checks, and exports. FastAPI + React. **[Live →](https://market-regime-dashboard-mu.vercel.app)** |
+| [Portfolio Risk Copilot](https://github.com/Jo2234/portfolio-risk-copilot) | API-first portfolio risk: VaR, expected shortfall, correlations, concentration flags, stress tests, plain-English commentary. **[Live →](https://portfolio-risk-copilot-pi.vercel.app)** |
 
 ## How I work
 
