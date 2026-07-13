@@ -1,40 +1,29 @@
 # Johan Vaz
 
-**AI + finance builder** focused on agents, evals, retrieval, and market/risk tooling.
+I build AI systems for financial research and risk — the unglamorous machinery that decides whether an AI tool is trustworthy or just fluent: eval harnesses, cited retrieval over SEC filings, and risk analytics that explain themselves.
 
-NUS Computer Science + Quantitative Finance. I turn messy research and operations workflows into source-backed tools, dashboards, reports, and lightweight automation.
+Computer Science + Quantitative Finance at NUS. Based in Singapore.
 
-**Looking for:** internships or junior roles in AI agents, LLM evaluation, fintech, quant research tooling, workflow automation, product operations, or founder/ops support.
+**Currently:** looking for internships or junior roles in AI agents, LLM evaluation, fintech, or quant research tooling — ideally on a small team that ships.
 
-**Best fit:** small teams that need someone who can ship useful prototypes, write clearly, test failure modes, and make data-heavy workflows easier to trust.
+## Selected work
 
-## Featured builds
-
-| Project | What it proves |
+| Project | What it is |
 | --- | --- |
-| [AI Equity Research Copilot](https://github.com/Jo2234/ai-equity-research-copilot) | Document-grounded public-company research assistant with SEC filing ingestion, cited retrieval, comparisons, structured memos, and finance QA checks for citations/refusals/hallucinations. |
-| [Financial LLM Evaluation Harness](https://github.com/Jo2234/financial-llm-eval-harness) | 50-case finance QA eval suite covering factual extraction, cited summaries, multi-document synthesis, comparisons, refusal behavior, adversarial prompts, scoring, and regression reports. |
-| [Portfolio Risk Engine](https://github.com/Jo2234/portfolio-risk-engine) | Inspectable portfolio analytics: returns, volatility, drawdowns, VaR, expected shortfall, beta, correlations, exposure, concentration, stress tests, and plain-English risk commentary. |
-| [US Market Regime Dashboard](https://github.com/Jo2234/us-market-regime-dashboard) | Macro/risk context dashboard with FastAPI, React, data freshness checks, CSV exports, and transparent regime rules for indices, sectors, rates, volatility, and commodities. |
-| [iGhost](https://github.com/Jo2234/iGhost) | AI usability lab that turns website tasks into narrated synthetic-user walkthroughs, product critiques, voiceover, browser automation, and Codex-ready fix prompts. |
+| [AI Equity Research Copilot](https://github.com/Jo2234/ai-equity-research-copilot) | Document-grounded research over SEC filings: EDGAR ingestion, chunk-level cited retrieval, structured memos — plus a finance QA eval set so citation precision, refusals, and hallucination risk are measured, not assumed. |
+| [Financial LLM Eval Harness](https://github.com/Jo2234/financial-llm-eval-harness) | 50-case evaluation suite for financial QA systems: factual extraction, multi-document synthesis, refusal behavior, adversarial prompts, scoring, and regression reports. |
+| [Curio](https://github.com/Jo2234/curio) | Learning-by-teaching, instrumented: teach an AI novice by voice, reasoning agents map your claims against a curriculum, then the novice teaches it back using only what it learned from you. |
+| [FluentAI](https://github.com/Jo2234/FluentAI) | Agentic language tutor with adaptive lessons, evaluator/memory agents, real-time speech, and spaced repetition driven by actual conversation mistakes. |
+| [finance-labs](https://github.com/Jo2234/finance-labs) | A toolkit of small, offline, test-covered risk and market-structure diagnostics: margin cascades, ETF liquidity stress, option skew, factor crowding, covenant headroom, and more. |
+| [US Market Regime Dashboard](https://github.com/Jo2234/us-market-regime-dashboard) | Macro/risk context dashboard with transparent regime rules, data-freshness checks, and exports. FastAPI + React. |
 
-## Proof points
+## How I work
 
-- Built around **source grounding, citations, refusal behavior, and hallucination checks** rather than generic chatbot demos.
-- Shipped a **50-case financial LLM evaluation harness** with scoring, reporting, and regression comparison.
-- Covered the finance workflow from **company research** to **LLM evals**, **portfolio risk**, and **market-regime context**.
-- Comfortable moving between **Python/data pipelines**, **FastAPI/React demos**, docs, dashboards, and product feedback loops.
-
-## Where I can help
-
-- LLM eval design, agent QA, annotation rubrics, failure reports, and reliability checks.
-- Retrieval/citation workflows for financial research and internal knowledge tools.
-- Finance/data ops, market dashboards, risk reporting, and research automation.
-- Startup/product ops: converting loose asks into tracked workflows, useful artifacts, and next actions.
+- **Grounded, or it doesn't ship.** Generated claims trace to source chunks; when evidence is weak, the system refuses — and that behavior is tested like a feature.
+- **Evaluated, not vibe-checked.** I build the eval harness before trusting the output: golden sets, regression scoring, adversarial cases.
+- **Honest about failure modes.** Finance punishes overconfidence, so I document where tools break and what they must not do.
 
 ## Contact
 
-If you are building AI tools for research, finance, operations, or product workflows, I would be glad to compare notes or help ship.
-
-- GitHub: [github.com/Jo2234](https://github.com/Jo2234)
+- Email: v.johan2234@gmail.com
 - LinkedIn: [sg.linkedin.com/in/johan-vaz](https://sg.linkedin.com/in/johan-vaz)
