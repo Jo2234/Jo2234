@@ -10,6 +10,8 @@ Computer Science + Quantitative Finance at NUS. Based in Singapore.
 
 ## Merged open-source contributions
 
+- **[Apache Arrow — more reliable numerical data imports](https://github.com/apache/arrow-rs/pull/11105).** Fixed CSV values such as `+1` and `+1.5` being mistaken for text; added tests for valid numbers, overflow, and malformed input. Reviewed and merged into the official Rust implementation on 17 September 2026.
+
 - **[Apache Arrow — faster selection for fragmented masks](https://github.com/apache/arrow-rs/pull/10368).** Added adaptive dispatch to the existing interleave kernels while preserving null handling and the contiguous-mask path. The PR's 8,192-row i32 benchmark recorded 76.889 µs → 33.676 µs, a 56.2% reduction in execution time for that workload.
 - **[bt — integer allocation with nonlinear commissions](https://github.com/pmorissette/bt/pull/530).** Fixed a search that skipped an affordable share quantity and raised an error; added a regression for minimum, per-share, and capped commissions.
 - **[ffn — multi-period annualization](https://github.com/pmorissette/ffn/pull/304).** Corrected frequency inference that inflated annualized ratios for 30-minute data, with coverage of the resulting Sharpe calculation.
