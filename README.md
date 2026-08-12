@@ -28,7 +28,6 @@ The linked PRs contain the implementation, review discussion, validation, and an
 | [FluentAI](https://github.com/Jo2234/FluentAI) | Agentic language tutor with adaptive lessons, evaluator/memory agents, real-time speech, and spaced repetition driven by actual conversation mistakes. |
 | [finance-labs](https://github.com/Jo2234/finance-labs) | A toolkit of small, offline, test-covered risk and market-structure diagnostics: margin cascades, ETF liquidity stress, option skew, factor crowding, covenant headroom, and more. **[Live results gallery →](https://finance-labs-showcase.vercel.app)** |
 | [US Market Regime Dashboard](https://github.com/Jo2234/us-market-regime-dashboard) | Macro/risk context dashboard with transparent regime rules, data-freshness checks, and exports. FastAPI + React. **[Live →](https://market-regime-dashboard-mu.vercel.app)** |
-| [Portfolio Risk Copilot](https://github.com/Jo2234/portfolio-risk-copilot) | API-first portfolio risk: VaR, expected shortfall, correlations, concentration flags, stress tests, plain-English commentary. **[Live →](https://portfolio-risk-copilot-pi.vercel.app)** |
 
 ## Contact
 
