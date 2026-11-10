@@ -13,6 +13,9 @@ Computer Science + Quantitative Finance at NUS. Based in Singapore.
 - **[Apache Arrow — more reliable numerical data imports](https://github.com/apache/arrow-rs/pull/11105).** Fixed CSV values such as `+1` and `+1.5` being mistaken for text; added tests for valid numbers, overflow, and malformed input. Reviewed and merged into the official Rust implementation on 17 September 2026.
 
 - **[Apache Arrow — faster selection for fragmented masks](https://github.com/apache/arrow-rs/pull/10368).** Added adaptive dispatch to the existing interleave kernels while preserving null handling and the contiguous-mask path. The PR's 8,192-row i32 benchmark recorded 76.889 µs → 33.676 µs, a 56.2% reduction in execution time for that workload.
+
+- **[T3 Code — 10 merged fixes to an AI coding-agent app](https://github.com/pingdotgg/t3code/pulls?q=is%3Apr+author%3AJo2234+is%3Amerged).** Fixed reliability and usability bugs across the web client, CLI, and provider and source-control integrations. Examples include opening files from [Claude and ACP tool-call diffs](https://github.com/pingdotgg/t3code/pull/29309), restoring [long-path file suggestions on web and mobile](https://github.com/pingdotgg/t3code/pull/30714), and preserving [empty replacements in OpenCode edits](https://github.com/pingdotgg/t3code/pull/30643).
+
 - **[bt — integer allocation with nonlinear commissions](https://github.com/pmorissette/bt/pull/530).** Fixed a search that skipped an affordable share quantity and raised an error; added a regression for minimum, per-share, and capped commissions.
 - **[ffn — multi-period annualization](https://github.com/pmorissette/ffn/pull/304).** Corrected frequency inference that inflated annualized ratios for 30-minute data, with coverage of the resulting Sharpe calculation.
 
