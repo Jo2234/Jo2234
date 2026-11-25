@@ -1,33 +1,27 @@
 # Johan Vaz
 
-I build evaluated AI systems and financial research tools (cited retrieval over SEC filings, financial QA evals, inspectable risk analytics), and I contribute to open-source tools, with merged work in T3 Code and Apache Arrow.
+I build AI tools that show their evidence, from cited answers over SEC filings to a browser app that puts conflicting document passages side by side. I also work on open-source developer tools, with merged fixes in T3 Code, OpenClaw, and Apache Arrow.
 
-NUS Computer Science with a Quantitative Finance minor; graduating May 2029. Based in Singapore. Authorized to work in Singapore. Looking for a 2027 internship, remote preferred, especially with small teams that build with coding agents: **either 15–20 h/week Jan–Jun 2027 alongside classes, or full-time May–July 2027**.
+I study Computer Science at NUS with a minor in Quantitative Finance and expect to graduate in May 2029. I'm based in Singapore and authorized to work here. I'm looking for a **2027 software engineering or applied AI internship**, ideally remote and with a small team that builds with coding agents. I can work **15–20 hours per week from January to June** alongside classes, or **full-time from May to July**.
 
-**Site:** [johan-vaz-site.vercel.app](https://johan-vaz-site.vercel.app)
+[Portfolio](https://johan-vaz-site.vercel.app) · [LinkedIn](https://sg.linkedin.com/in/johan-vaz) · [Email](mailto:v.johan2234@gmail.com)
 
 ## Merged open-source contributions
 
-- **[T3 Code — 10 merged fixes to an AI coding-agent app](https://github.com/pingdotgg/t3code/pulls?q=is%3Apr+author%3AJo2234+is%3Amerged).** Reliability and usability fixes across the web client, CLI, provider and source-control integrations. Examples: opening files from [Claude and ACP tool-call diffs](https://github.com/pingdotgg/t3code/pull/29309), restoring [long-path file suggestions on web and mobile](https://github.com/pingdotgg/t3code/pull/30714), and preserving [empty replacements in OpenCode edits](https://github.com/pingdotgg/t3code/pull/30643).
-- **[Apache Arrow — numerical CSV imports](https://github.com/apache/arrow-rs/pull/11105).** Fixed `+1` and `+1.5` being inferred as text; added regression coverage for valid numbers, overflow, and malformed signs. Merged into the Rust implementation on 17 September 2026.
-- **[Apache Arrow — fragmented-mask selection](https://github.com/apache/arrow-rs/pull/10368).** Added adaptive dispatch to interleave kernels, preserving null handling and the contiguous-mask path. The PR's 8,192-row i32 benchmark with random 50%-true masks recorded 76.889 µs → 33.676 µs: 56.2% less execution time for that workload.
-- **[bt — integer allocation with nonlinear commissions](https://github.com/pmorissette/bt/pull/530).** Fixed a search that skipped an affordable share quantity and raised an error; added a regression for minimum, per-share, and capped commissions.
-- **[ffn — multi-period annualization](https://github.com/pmorissette/ffn/pull/304).** Corrected frequency inference that inflated annualized ratios for 30-minute data, with Sharpe regression coverage.
+- **T3 Code** · [17 merged PRs](https://github.com/pingdotgg/t3code/pulls?q=is%3Apr+author%3AJo2234+is%3Amerged). Fixed [file navigation from Claude and ACP tool-call diffs](https://github.com/pingdotgg/t3code/pull/29309), [desktop download error feedback](https://github.com/pingdotgg/t3code/pull/31324), and [GitLab reaction removal across pages](https://github.com/pingdotgg/t3code/pull/30700).
+- **OpenClaw** · [5 merged PRs](https://github.com/openclaw/openclaw/pulls?q=is%3Apr+author%3AJo2234+is%3Amerged). Kept [active turns running through session rollover](https://github.com/openclaw/openclaw/pull/197345), restored [questions in legacy HTML exports](https://github.com/openclaw/openclaw/pull/197310), and fixed [unintended bot replies to quoted Matrix mentions](https://github.com/openclaw/openclaw/pull/197091).
+- **Apache Arrow (Rust)** · Fixed [CSV inference for leading-plus numbers](https://github.com/apache/arrow-rs/pull/11105) and [header inference from sampled column types](https://github.com/apache/arrow-rs/pull/10361). My [fragmented-mask change](https://github.com/apache/arrow-rs/pull/10368) reduced time from 76.889 µs to 33.676 µs in the PR's 8,192-row i32 benchmark with 50%-true random masks.
+- **Other fixes** · [Black configuration errors](https://github.com/psf/black/pull/5548), [Rollup build-error preservation](https://github.com/rollup/rollup/pull/6554), [bt integer allocation with nonlinear commissions](https://github.com/pmorissette/bt/pull/530), and [ffn annualization for sub-daily data](https://github.com/pmorissette/ffn/pull/304).
 
-I use AI coding tools. The linked PRs contain the implementation, review discussion, validation, and AI-assistance disclosures where applicable. Benchmark results apply to the recorded workloads and environment.
+I use AI coding tools. The linked PRs and repositories document the work, validation, and project-specific disclosures.
 
 ## Selected projects
 
-| Project | What it is |
+| Project | What you can inspect |
 | --- | --- |
-| [AI Equity Research Copilot](https://github.com/Jo2234/ai-equity-research-copilot) | SEC EDGAR ingestion, chunk-level cited retrieval, and structured research memos; a synthetic finance QA suite checks citations, refusals, and unsupported claims. |
-| [Financial LLM Eval Harness](https://github.com/Jo2234/financial-llm-eval-harness) | 50-case financial QA suite covering factual extraction, synthesis, refusals, and adversarial prompts, with scoring and regression reports. |
-| [Curio](https://github.com/Jo2234/curio) | Teach an AI novice by voice or text; curriculum-grounded claim checks, spoken teach-back, and an inspectable learning report. |
-| [FluentAI](https://github.com/Jo2234/FluentAI) | Language-learning demo with adaptive lessons, conversation, persistent learner memory, and spaced review. |
-| [finance-labs](https://github.com/Jo2234/finance-labs) | Offline Python risk and market-structure diagnostics using transparent synthetic scenarios. [Results gallery](https://finance-labs-showcase.vercel.app). |
-| [US Market Regime Dashboard](https://github.com/Jo2234/us-market-regime-dashboard) | Macro/risk dashboard with documented regime rules, source-freshness checks, and exports. [Live dashboard](https://market-regime-dashboard-mu.vercel.app). |
-
-## Contact
-
-- Email: v.johan2234@gmail.com
-- LinkedIn: [sg.linkedin.com/in/johan-vaz](https://sg.linkedin.com/in/johan-vaz)
+| [AI Equity Research Copilot](https://github.com/Jo2234/ai-equity-research-copilot) | SEC filing ingestion, cited retrieval, and research memos. Try the [deterministic, keyless demo](https://equity-research-copilot.vercel.app). |
+| [Financial LLM Eval Harness](https://github.com/Jo2234/financial-llm-eval-harness) | A 50-case financial QA suite covering extraction, synthesis, citations, refusals, and adversarial prompts. Browse the [saved evaluation reports](https://eval-harness-report.vercel.app). |
+| [FluentAI](https://github.com/Jo2234/FluentAI) | A language tutor with adaptive lessons, conversation, and persistent learner memory. [Ralphthon @SG Impact Prize](https://www.linkedin.com/posts/superteam-singapore_and-thats-a-wrap-on-ralphthon-the-premise-activity-7462455037634617344-fLSv). [Recorded lesson and conversation](https://github.com/Jo2234/FluentAI/blob/main/docs/media/workflow-demo.mp4). |
+| [TwoTruths](https://github.com/Jo2234/twotruths) | I directed and reviewed the AI-assisted build of a document comparison tool that flags passages for human review. Inference runs in the browser. [Try the demo](https://jo2234.github.io/twotruths/) or read the [synthetic evaluation and its limits](https://devpost.com/software/twotruths). |
+| [SecondLook](https://github.com/Jo2234/secondlook) | A seller studio that puts the original garment photo and measurements first, and labels YouCam try-on previews as approximate. [Devpost entry and demo](https://devpost.com/software/secondlook-glas18). |
+| [US Market Regime Dashboard](https://github.com/Jo2234/us-market-regime-dashboard) | Market and macro data with documented regime rules, observation dates, and freshness checks. [Live dashboard](https://market-regime-dashboard-mu.vercel.app). |
